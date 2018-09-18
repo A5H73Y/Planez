@@ -1,0 +1,10 @@
+name: Planez
+version: 3.0
+description: Fly in Minecraft
+softdepend: [Vault]
+author: A5H73Y
+main: me.A5H73Y.Planez.Planez
+api-version: 1.13
+commands:
+  planez:
+    description: Planez commands
