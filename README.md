@@ -1,4 +1,4 @@
-# Planez
+<p align="center"><img src="https://i.imgur.com/wSQ3D5T.jpg" alt="Planez Logo"></p>
 
 [![bStats](https://img.shields.io/badge/statistics-bstats-brightgreen.svg)](https://bstats.org/plugin/bukkit/Planez)
 [![dev.bukkit](https://img.shields.io/badge/tutorials-dev.bukkit-blue.svg)](https://dev.bukkit.org/projects/planez/)
