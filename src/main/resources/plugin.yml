@@ -1,0 +1,11 @@
+name: Planez
+version: ${project.version}
+description: ${project.description}
+softdepend: [Vault]
+author: A5H73Y
+main: io.github.a5h73y.planez.Planez
+api-version: "1.13"
+website: "https://a5h73y.github.io/Carz/"
+commands:
+  planez:
+    description: Planez commands

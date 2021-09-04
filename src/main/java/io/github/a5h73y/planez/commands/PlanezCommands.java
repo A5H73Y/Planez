@@ -1,12 +1,12 @@
-package me.A5H73Y.Planez.commands;
+package io.github.a5h73y.planez.commands;
 
-import me.A5H73Y.Planez.Planez;
-import me.A5H73Y.Planez.enums.Commands;
-import me.A5H73Y.Planez.enums.Permissions;
-import me.A5H73Y.Planez.other.DelayTasks;
-import me.A5H73Y.Planez.other.Help;
-import me.A5H73Y.Planez.other.Utils;
-import me.A5H73Y.Planez.other.Validation;
+import io.github.a5h73y.planez.Planez;
+import io.github.a5h73y.planez.enums.Commands;
+import io.github.a5h73y.planez.enums.Permissions;
+import io.github.a5h73y.planez.other.DelayTasks;
+import io.github.a5h73y.planez.other.Help;
+import io.github.a5h73y.planez.other.Utils;
+import io.github.a5h73y.planez.other.Validation;
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;

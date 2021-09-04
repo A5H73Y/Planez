@@ -1,9 +1,7 @@
-package me.A5H73Y.Planez.other;
+package io.github.a5h73y.planez.other;
 
-import me.A5H73Y.Planez.Planez;
+import io.github.a5h73y.planez.Planez;
 import org.bukkit.Material;
-
-import java.util.ArrayList;
 
 public class Settings {
 

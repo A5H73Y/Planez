@@ -1,16 +1,14 @@
-package me.A5H73Y.Planez;
+package io.github.a5h73y.planez;
 
-import me.A5H73Y.Planez.commands.PlanezCommands;
-import me.A5H73Y.Planez.controllers.EconomyController;
-import me.A5H73Y.Planez.listeners.VehicleListener;
-import me.A5H73Y.Planez.listeners.PlayerListener;
-import me.A5H73Y.Planez.listeners.SignListener;
-import me.A5H73Y.Planez.controllers.PlaneController;
-import me.A5H73Y.Planez.controllers.FuelController;
-import me.A5H73Y.Planez.other.Settings;
-import me.A5H73Y.Planez.other.Updater;
-import me.A5H73Y.Planez.other.Utils;
-import org.bstats.bukkit.Metrics;
+import io.github.a5h73y.planez.commands.PlanezCommands;
+import io.github.a5h73y.planez.controllers.EconomyController;
+import io.github.a5h73y.planez.controllers.FuelController;
+import io.github.a5h73y.planez.controllers.PlaneController;
+import io.github.a5h73y.planez.listeners.PlayerListener;
+import io.github.a5h73y.planez.listeners.SignListener;
+import io.github.a5h73y.planez.listeners.VehicleListener;
+import io.github.a5h73y.planez.other.Settings;
+import io.github.a5h73y.planez.other.Utils;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class Planez extends JavaPlugin {
@@ -41,8 +39,9 @@ public class Planez extends JavaPlugin {
         economyController = new EconomyController(this);
 
         getLogger().info("Planez enabled");
-        new Metrics(this);
-        updatePlugin();
+        getLogger().info("=============================");
+        getLogger().info("Planez will soon be integrated into the Carz plugin, please update when available.");
+        getLogger().info("=============================");
     }
 
     public void onDisable() {
@@ -67,10 +66,5 @@ public class Planez extends JavaPlugin {
 
     public static String getPrefix() {
         return Utils.getTranslation("Prefix", false);
-    }
-
-    private void updatePlugin() {
-        if (instance.getConfig().getBoolean("Other.UpdateCheck"))
-            new Updater(this, 53024, this.getFile(), Updater.UpdateType.DEFAULT, true);
     }
 }

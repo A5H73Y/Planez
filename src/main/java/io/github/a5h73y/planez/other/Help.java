@@ -1,8 +1,8 @@
-package me.A5H73Y.Planez.other;
+package io.github.a5h73y.planez.other;
 
-import me.A5H73Y.Planez.Planez;
-import me.A5H73Y.Planez.enums.Commands;
-import me.A5H73Y.Planez.enums.Permissions;
+import io.github.a5h73y.planez.Planez;
+import io.github.a5h73y.planez.enums.Commands;
+import io.github.a5h73y.planez.enums.Permissions;
 import org.bukkit.ChatColor;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.entity.Player;

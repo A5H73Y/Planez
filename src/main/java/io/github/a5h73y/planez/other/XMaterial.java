@@ -1,4 +1,4 @@
-package me.A5H73Y.Planez.other;
+package io.github.a5h73y.planez.other;
 
 import org.bukkit.Material;
 

@@ -1,9 +1,9 @@
-package me.A5H73Y.Planez.listeners;
+package io.github.a5h73y.planez.listeners;
 
-import me.A5H73Y.Planez.Planez;
-import me.A5H73Y.Planez.other.DelayTasks;
-import me.A5H73Y.Planez.other.Utils;
-import me.A5H73Y.Planez.other.Validation;
+import io.github.a5h73y.planez.Planez;
+import io.github.a5h73y.planez.other.DelayTasks;
+import io.github.a5h73y.planez.other.Utils;
+import io.github.a5h73y.planez.other.Validation;
 import org.bukkit.Effect;
 import org.bukkit.entity.Minecart;
 import org.bukkit.entity.Player;

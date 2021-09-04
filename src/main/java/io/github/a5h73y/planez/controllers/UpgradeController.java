@@ -1,7 +1,7 @@
-package me.A5H73Y.Planez.controllers;
+package io.github.a5h73y.planez.controllers;
 
-import me.A5H73Y.Planez.Planez;
-import me.A5H73Y.Planez.other.Utils;
+import io.github.a5h73y.planez.Planez;
+import io.github.a5h73y.planez.other.Utils;
 import org.bukkit.Effect;
 import org.bukkit.entity.Player;
 import org.bukkit.entity.Vehicle;

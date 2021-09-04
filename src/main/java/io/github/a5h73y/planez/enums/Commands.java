@@ -1,4 +1,4 @@
-package me.A5H73Y.Planez.enums;
+package io.github.a5h73y.planez.enums;
 
 public enum Commands {
     SPAWN("Command.Spawn"),

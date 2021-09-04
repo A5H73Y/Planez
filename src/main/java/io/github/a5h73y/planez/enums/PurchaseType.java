@@ -1,6 +1,6 @@
-package me.A5H73Y.Planez.enums;
+package io.github.a5h73y.planez.enums;
 
-import me.A5H73Y.Planez.Planez;
+import io.github.a5h73y.planez.Planez;
 
 public enum PurchaseType {
     PLANE("Purchase"),

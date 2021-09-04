@@ -1,18 +1,14 @@
-package me.A5H73Y.Planez.other;
+package io.github.a5h73y.planez.other;
 
-import me.A5H73Y.Planez.Planez;
-import me.A5H73Y.Planez.enums.Commands;
-import me.A5H73Y.Planez.enums.Permissions;
+import io.github.a5h73y.planez.Planez;
+import io.github.a5h73y.planez.enums.Commands;
+import io.github.a5h73y.planez.enums.Permissions;
 import org.bukkit.*;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Minecart;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
-
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
 
 public class Utils {
 

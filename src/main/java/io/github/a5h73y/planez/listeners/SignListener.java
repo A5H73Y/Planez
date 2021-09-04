@@ -1,12 +1,11 @@
-package me.A5H73Y.Planez.listeners;
+package io.github.a5h73y.planez.listeners;
 
-import me.A5H73Y.Planez.Planez;
-import me.A5H73Y.Planez.enums.Permissions;
-import me.A5H73Y.Planez.enums.PurchaseType;
-import me.A5H73Y.Planez.other.Utils;
-import me.A5H73Y.Planez.other.Validation;
+import io.github.a5h73y.planez.Planez;
+import io.github.a5h73y.planez.enums.Permissions;
+import io.github.a5h73y.planez.enums.PurchaseType;
+import io.github.a5h73y.planez.other.Utils;
+import io.github.a5h73y.planez.other.Validation;
 import org.bukkit.ChatColor;
-import org.bukkit.Material;
 import org.bukkit.block.Sign;
 import org.bukkit.entity.Player;
 import org.bukkit.entity.Vehicle;
@@ -63,9 +62,10 @@ public class SignListener implements Listener {
         if (event.getAction() != Action.LEFT_CLICK_BLOCK)
             return;
 
-        if ((event.getClickedBlock().getType() != Material.SIGN)
-                && (event.getClickedBlock().getType() != Material.WALL_SIGN))
+        if (event.getClickedBlock() == null
+                || !(event.getClickedBlock().getState() instanceof Sign)) {
             return;
+        }
 
         if (!Planez.getInstance().getConfig().getBoolean("Planez.SignProtection"))
             return;
@@ -89,9 +89,10 @@ public class SignListener implements Listener {
         if (event.getAction() != Action.RIGHT_CLICK_BLOCK)
             return;
 
-        if ((event.getClickedBlock().getType() != Material.SIGN)
-                && (event.getClickedBlock().getType() != Material.WALL_SIGN))
+        if (event.getClickedBlock() == null
+                || !(event.getClickedBlock().getState() instanceof Sign)) {
             return;
+        }
 
         Sign sign = (Sign) event.getClickedBlock().getState();
         String[] lines = sign.getLines();

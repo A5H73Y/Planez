@@ -1,10 +1,10 @@
-package me.A5H73Y.Planez.listeners;
+package io.github.a5h73y.planez.listeners;
 
-import me.A5H73Y.Planez.Planez;
-import me.A5H73Y.Planez.enums.Permissions;
-import me.A5H73Y.Planez.other.DelayTasks;
-import me.A5H73Y.Planez.other.Utils;
-import me.A5H73Y.Planez.other.XMaterial;
+import io.github.a5h73y.planez.Planez;
+import io.github.a5h73y.planez.enums.Permissions;
+import io.github.a5h73y.planez.other.DelayTasks;
+import io.github.a5h73y.planez.other.Utils;
+import io.github.a5h73y.planez.other.XMaterial;
 import org.bukkit.Material;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
